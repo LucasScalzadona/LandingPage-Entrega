@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #hero {
+    padding-right: 40px;
+  }
+
+  .hero-info h1 {
+    width: 80%;
+  }
+
+  .cards-conteiner {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%;
+    height: 80%; */
+  }
+}
+
+@media (max-width: 576px) {
+  #hero {
+    padding-right: 0px;
+  }
+
+  .hero-info h1 {
+    font-size: 50px;
+  }
+
+  .hero-card {
+    display: none;
+  }
+
+  ul {
+    gap: 50px;
+  }
+
+  #about {
+    max-width: 79%;
+  }
+}
