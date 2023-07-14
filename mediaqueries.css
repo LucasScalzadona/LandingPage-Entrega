@@ -7,11 +7,17 @@
   }
 
   #hero {
-    padding-right: 40px;
+    max-width: 90%;
+  }
+
+  .hero-info p {
+    width: 80%;
   }
 
   .hero-info h1 {
     width: 80%;
+    font-size: 47px;
+    min-width: 0px;
   }
 
   .cards-conteiner {
@@ -23,12 +29,33 @@
 }
 
 @media (max-width: 576px) {
+  nav {
+    padding: 5px;
+  }
+
+  .navlogo {
+    margin-inline: 25px;
+    width: 60px;
+  }
+
   #hero {
-    padding-right: 0px;
+    margin-top: 0px;
+  }
+
+  .hero-info {
+    gap: 25px;
   }
 
   .hero-info h1 {
-    font-size: 50px;
+    font-size: 40px;
+    padding: 0px 30px 0px 30px;
+    min-width: none;
+    width: 85%;
+    padding: 0%;
+  }
+
+  .hero-info p {
+    width: 80%;
   }
 
   .hero-card {
@@ -36,11 +63,32 @@
   }
 
   ul {
+    gap: 16px;
+    font-size: 12px;
+  }
+
+  .cards {
     max-width: 100%;
-    gap: 50px;
+  }
+
+  .cards img {
+    max-width: 100%;
+  }
+
+  .cards-conteiner {
+    scale: 80%;
+    max-height: 80%;
   }
 
   #about {
     max-width: 79%;
+  }
+
+  #trabajos {
+    max-width: 100%;
+  }
+
+  #trabajos h2 {
+    margin-top: 70px;
   }
 }
